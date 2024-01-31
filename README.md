@@ -1,0 +1,1 @@
+# BOT: VÍNCULO DE RENOVAÇÃO
