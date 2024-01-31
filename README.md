@@ -18,5 +18,6 @@ Nos arquivos acima você pode ver:
 1. Funcoes_bot: as funções que geram as queries e os nomes do commit e merge request;
 2. Vínculo de renovação: o código do BOT em sim, e todo o passo a passo da automação;
 3. Merge approval: Script que verifica se o merge foi aprovado no gitlab, faz o merge, fecha o card no Jira e envia email automático para o usuário.
+OBS: Os arquivos 2 e 3 foram desenvolvidos no Databricks, sendo assim agendamos eles para rodarem diariamente.
 
 Sendo assim, não sobrou nem um suspiro manual para o sujeito do Suporte! 
