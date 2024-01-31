@@ -11,7 +11,7 @@ Trabalho em uma empresa de tecnologia de seguro, e basicamente o fluxo consiste 
 5. Gerava uma nova branch no projeto do gitlab, criava um commit e um Merge Request com o arquivo da query;
 6. Após o merge ser aprovado pelo time de produto e engenharia, o sujeito do suporte megeava e o vínculo estava criado!
 
-Entretanto, eu averiguamos que esse fluxo poderia ser automatizado via Python.
+Entretanto, averiguamos que esse fluxo poderia ser automatizado via Python.
 Um colega de trabalho desenvolveu uma página utilizando Bubble em que o usuário de operação apenas insere qual o ID renovado e o ID renovação. Esses id's são inputados em uma tabela no banco de dados, e o BOT faz a leitura dessa tabela.
 
 Nos arquivos acima você pode ver:
