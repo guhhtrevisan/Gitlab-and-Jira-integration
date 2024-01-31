@@ -1,6 +1,7 @@
 # BOT: VÍNCULO DE RENOVAÇÃO
 
 Identifiquei que na empresa que trabalho exisita um fluxo exaustivo e complexo que poderia ser automatizado utilizando Python. 
+
 Trabalho em uma empresa de tecnologia de seguro, e basicamente o fluxo consiste no ato da renovação de apólices. Como nosso sistema não contempla o caso de renovação atráves de endossos, ou não realiza renovação diretamente pelo portal de apólices que já existem no sistema, tínhamos um fluxo de renovação bastante complexo e manual.
 
 #### Basicamento, esse era o fluxo:
@@ -18,6 +19,7 @@ Nos arquivos acima você pode ver:
 1. Funcoes_bot: as funções que geram as queries e os nomes do commit e merge request;
 2. Vínculo de renovação: o código do BOT em sim, e todo o passo a passo da automação;
 3. Merge approval: Script que verifica se o merge foi aprovado no gitlab, faz o merge, fecha o card no Jira e envia email automático para o usuário.
+
 OBS: Os arquivos 2 e 3 foram desenvolvidos no Databricks, sendo assim agendamos eles para rodarem diariamente.
 
 Sendo assim, não sobrou nem um suspiro manual para o sujeito do Suporte! 
