@@ -1,8 +1,9 @@
 def query_renovacao_status_type(id_old, id_new, id_user, status_antg, type_antg):
-  tabela_renew_sga = 'operational_policy_renew'
-  tabela_operational_policy_sga = 'operational_policy'
-  colum_status =  'status'
-  column_solicitation = 'id_enum_type_solicitation'
+  tabela_renew_sga = 'table_name'
+  tabela_operational_policy_sga = 'table_name'
+  colum_status =  'column_status'
+  column_solicitation = 'column_solicitation'
+  
   query = f"""
 INSERT INTO {tabela_renew_sga} (id_policy_old, id_policy_new, id_user, status, dt_create)
 VALUES ({id_old}, {id_new}, {id_user}, 4, NOW());
@@ -16,10 +17,10 @@ UPDATE {tabela_operational_policy_sga} SET {column_solicitation} = 108 WHERE id 
   return query[1:]
 
 def query_renovacao_status(id_old, id_new, id_user, status_antg):
-  tabela_renew_sga = 'operational_policy_renew'
-  tabela_operational_policy_sga = 'operational_policy'
-  colum_status =  'status'
-  column_solicitation = 'id_enum_type_solicitation'
+  tabela_renew_sga = 'table_name'
+  tabela_operational_policy_sga = 'table_name'
+  colum_status =  'column_status'
+  
   query = f"""
 INSERT INTO {tabela_renew_sga} (id_policy_old, id_policy_new, id_user, status, dt_create)
 VALUES ({id_old}, {id_new}, {id_user}, 4, NOW());
@@ -30,10 +31,10 @@ UPDATE {tabela_operational_policy_sga} SET {colum_status} = 18 WHERE id = {id_ol
   return query[1:]
 
 def query_renovacao_type(id_old, id_new, id_user, type_antg):
-  tabela_renew_sga = 'operational_policy_renew'
-  tabela_operational_policy_sga = 'operational_policy'
-  colum_status =  'status'
-  column_solicitation = 'id_enum_type_solicitation'
+  tabela_renew_sga = 'table_name'
+  tabela_operational_policy_sga = 'table_name'
+  column_solicitation = 'column_solicitation'
+  
   query = f"""
 INSERT INTO {tabela_renew_sga} (id_policy_old, id_policy_new, id_user, status, dt_create)
 VALUES ({id_old}, {id_new}, {id_user}, 4, NOW());
@@ -44,10 +45,9 @@ UPDATE {tabela_operational_policy_sga} SET {column_solicitation} = 108 WHERE id 
   return query[1:]
 
 def query_renovacao(id_old, id_new, id_user):
-  tabela_renew_sga = 'operational_policy_renew'
-  tabela_operational_policy_sga = 'operational_policy'
-  colum_status =  'status'
-  column_solicitation = 'id_enum_type_solicitation'
+  tabela_renew_sga = 'table_name'
+  tabela_operational_policy_sga = 'table_name'
+  
   query = f"""
 INSERT INTO {tabela_renew_sga} (id_policy_old, id_policy_new, id_user, status, dt_create)
 VALUES ({id_old}, {id_new}, {id_user}, 4, NOW());
