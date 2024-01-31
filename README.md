@@ -1,6 +1,6 @@
 # BOT: VÍNCULO DE RENOVAÇÃO
 
-Identifiquei que na empresa que trabalho exisita um fluxo exaustivo e complexo que poderia ser automatizado utilizando Python. 
+Identifiquei que na empresa que trabalho existia um fluxo exaustivo e complexo que poderia ser automatizado utilizando Python. 
 
 Trabalho em uma empresa de tecnologia de seguro, e basicamente o fluxo consiste no ato da renovação de apólices. Como nosso sistema não contempla o caso de renovação atráves de endossos, ou não realiza renovação diretamente pelo portal de apólices que já existem no sistema, tínhamos um fluxo de renovação bastante complexo e manual.
 
